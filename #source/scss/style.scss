@@ -70,7 +70,7 @@ body {
 .container-sm {
   max-width: 1025px;
 }
-.scrol {
+.scroll {
   position: fixed !important;
   top: 0;
   left: 0;
@@ -95,7 +95,6 @@ body {
 @import "ui/_forms";
 @import "ui/_btn";
 @import "blocks/_title";
-@import "ui/_grid-setka(masonry)";
 
 @import "blocks/_section-all";
 
@@ -116,9 +115,6 @@ body {
 @import "blocks/_section-12";
 @import "blocks/_section-13";
 @import "blocks/_section-14";
-/*
 
-@import "blocks/_collback";
-*/
 @import "blocks/_footer";
 @import "blocks/_popup";

@@ -134,7 +134,7 @@ body {
 .container-sm {
   max-width: 1025px; }
 
-.scrol {
+.scroll {
   position: fixed !important;
   top: 0;
   left: 0;
@@ -144,7 +144,7 @@ body {
   -ms-transition: all 0.7s ease 0s;
   -o-transition: all 0.7s ease 0s;
   transition: all 0.7s ease 0s; }
-  .scrol.intro-nav {
+  .scroll.intro-nav {
     padding-left: 100px;
     z-index: 11;
     background: #fff; }
@@ -409,33 +409,6 @@ textarea.input {
     .section-title {
       margin-bottom: 47px;
       font-size: 48px; } }
-
-.grid-container {
-  -webkit-column-gap: 16px;
-  column-gap: 16px;
-  margin: 8px 16px; }
-  @media only screen and (max-width: 480px) {
-    .grid-container {
-      -webkit-column-count: 1;
-      column-count: 1; } }
-  @media only screen and (min-width: 481px) and (max-width: 620px) {
-    .grid-container {
-      -webkit-column-count: 2;
-      column-count: 2; } }
-  @media only screen and (min-width: 621px) and (max-width: 1023px) {
-    .grid-container {
-      -webkit-column-count: 3;
-      column-count: 3; } }
-  @media only screen and (min-width: 1024px) {
-    .grid-container {
-      -webkit-column-count: 3;
-      column-count: 3; } }
-  .grid-container .item {
-    background-color: #fff;
-    margin: 8px 0;
-    padding: 26px;
-    padding-bottom: 45px;
-    display: inline-block; }
 
 .section {
   padding: 30px 10px 30px 10px;
@@ -1876,10 +1849,6 @@ textarea.input {
 }
 
 
-*/
-/*
-
-@import "blocks/_collback";
 */
 .footer-body {
   display: -webkit-box;
