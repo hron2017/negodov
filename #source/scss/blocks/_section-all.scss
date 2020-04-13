@@ -49,15 +49,20 @@
 		}
 	}
 }
-.section-03,
-.section-10,
-.section-13 {
+.section-03 {
 	.btn {
 		@media (min-width: $md3+px) {
 			font-size: 18px;
 			padding: 34px;
 			font-weight: bold;
 		}
+	}
+}
+.section-10,
+.section-13 {
+	.btn {
+		padding: 24px;
+		font-size: 18px;
 	}
 }
 .page-icon {

@@ -36,6 +36,9 @@
 	text-transform: uppercase;
 	font-weight: bold;
 
+	@media (min-width: $md2+px) and (max-width: 1400px) {
+		bottom: -90px;
+	}
 	@media (min-width: $md2+px) {
 		font-size: 49px;
 	}

@@ -22,9 +22,12 @@
 		width: 30%;
 
 		@media (min-width: $md2+px) {
-			top: 50%;
+			top: 75%;
 			width: 15%;
 			height: 3px;
+		}
+		@media (min-width: 1400px) {
+			top: 50%;
 		}
 	}
 }
