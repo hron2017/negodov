@@ -19,15 +19,14 @@
 		transform: translateY(-50%);
 		background-color: #94d4f4;
 		height: 2px;
-		width: 30%;
+		width: 50%;
 
-		@media (min-width: $md2+px) {
-			top: 75%;
-			width: 15%;
-			height: 3px;
+		@media (min-width: $md4+px) {
+			width: 60%;
 		}
 		@media (min-width: 1400px) {
 			top: 50%;
+			width: 15%;
 		}
 	}
 }

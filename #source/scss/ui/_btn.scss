@@ -28,12 +28,12 @@
   }
   @media (min-width: $md2+px) {
     padding: 26px 64px;
+    margin-bottom: 95px;
   }
   @media (min-width: 1200px) {
-    padding: 36px 84px;
+    padding: 24px 84px;
   }
   @media (min-width: 860px) and (max-width: 1400px) {
-    margin-bottom: 95px;
   }
 }
 .intro__btn {

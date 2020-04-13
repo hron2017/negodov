@@ -2,14 +2,13 @@
 	&:after {
 		content: "";
 		position: absolute;
-		bottom: 7%;
+		bottom: 10%;
 		right: 0;
 		width: 52%;
 		height: 3px;
 		background-color: #94d4f4;
 
 		@media (min-width: $md3+px) {
-			bottom: 10%;
 		}
 	}
 	&:before {

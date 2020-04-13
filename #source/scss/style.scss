@@ -79,9 +79,12 @@ body {
   @include anim(0.7s, 0s);
 
   &.intro-nav {
-    padding-left: 100px;
     z-index: 11;
     background: #fff;
+
+    @media (min-width: 1400px) {
+      padding-left: 100px;
+    }
   }
 }
 
@@ -95,6 +98,7 @@ body {
 @import "ui/_ui";
 @import "ui/_forms";
 @import "ui/_btn";
+@import "ui/_up";
 @import "blocks/_title";
 
 @import "blocks/_section-all";
