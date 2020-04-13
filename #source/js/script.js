@@ -47,8 +47,8 @@ $('.goto').click(function () {
 	var offset = 0;
 	$('body,html').animate({ scrollTop: $('.' + el).offset().top + offset }, 500, function () { });
 
-	if ($('.header-menu__mobile').hasClass('active')) {
-		$('.header-menu__mobile,.header-menu__icon').removeClass('active');
+	if ($('.header-nav-menu').hasClass('active')) {
+		$('.header-nav-menu,.nav-menu__icon').removeClass('active');
 		$('body').removeClass('lock');
 	}
 	return false;

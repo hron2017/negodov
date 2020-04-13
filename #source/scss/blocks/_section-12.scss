@@ -49,9 +49,13 @@
 		padding-left: 16px;
 
 		@media (min-width: $md3+px) {
+			font-size: 16px;
+			line-height: 20px;
+			padding-left: 30px;
+		}
+		@media (min-width: 1400px) {
 			font-size: 20px;
 			line-height: 29px;
-			padding-left: 30px;
 		}
 	}
 }
