@@ -1,0 +1,57 @@
+.questions-spollers {
+	&__title {
+		padding: 14px;
+		box-shadow: 0 9px 10px 1px rgba(148, 212, 244, 0.2);
+		position: relative;
+
+		@media (min-width: $md3+px) {
+			padding: 34px;
+		}
+		&.active {
+			color: #94d4f4;
+			box-shadow: unset;
+
+			&:after {
+				content: "\f068";
+			}
+		}
+
+		&:after {
+			content: "\f067";
+			font-family: "FontAwesome";
+			color: #94d4f4;
+			font-size: 14px;
+			position: absolute;
+			top: 50%;
+			right: 6px;
+			transform: translateY(-50%);
+
+			@media (min-width: $md3+px) {
+				right: 15px;
+			}
+			@media (min-width: 1200px) {
+				font-size: 36px;
+				right: 30px;
+			}
+		}
+
+		span {
+			display: inline-block;
+			max-width: 712px;
+		}
+	}
+
+	&__text {
+		font-size: 12px;
+		line-height: 18px;
+		letter-spacing: 0.5px;
+		display: none;
+		padding-left: 16px;
+
+		@media (min-width: $md3+px) {
+			font-size: 20px;
+			line-height: 29px;
+			padding-left: 30px;
+		}
+	}
+}

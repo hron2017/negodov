@@ -1,0 +1,42 @@
+.section-06 {
+	.quotes__text {
+		margin-right: 0;
+
+		p {
+			font-size: 1rem;
+			@media (min-width: $md2+px) {
+				line-height: 1.1;
+				font-size: 1.2rem;
+			}
+			@media (min-width: 1400px) {
+				font-size: 29px;
+			}
+		}
+		span {
+			@media (max-width: $md2+px) {
+				font-size: 20px;
+			}
+		}
+	}
+	.quotes__img {
+		width: 100%;
+		border: 24px solid #94d4f4;
+		border-image: linear-gradient(90deg, #94d4f4 50%, #fff 50%) 1;
+		margin-bottom: 30px;
+
+		@media (min-width: $md2+px) {
+			width: 60%;
+		}
+
+		@media (min-width: $md3+px) {
+			border: 34px solid #94d4f4;
+			border-image: linear-gradient(90deg, #94d4f4 50%, #fff 50%) 1;
+			margin-right: 4.16667vw;
+			margin-bottom: 0;
+		}
+
+		img {
+			border-radius: initial;
+		}
+	}
+}

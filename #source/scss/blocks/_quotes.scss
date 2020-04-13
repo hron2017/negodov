@@ -1,0 +1,58 @@
+.quotes {
+	&__inner {
+		@include flexbox();
+		justify-content: space-between;
+		align-items: center;
+		background-color: #fff;
+		z-index: 3;
+		position: relative;
+		padding: 20px 10px;
+
+		@media (max-width: $md4+px) {
+			flex-direction: column;
+		}
+		@media (min-width: $md3+px) {
+			padding: 50px;
+		}
+		@media (min-width: $md2+px) {
+			padding: 110px 100px;
+		}
+	}
+	&__text {
+		margin-bottom: 30px;
+		@media (min-width: $md4+px) {
+			flex: 0 1 60%;
+			margin-right: get-vw(80px);
+			margin-bottom: 0;
+		}
+
+		p {
+			text-align: justify;
+			@include adaptiv-text(1, 1, 22, 100);
+			margin-bottom: 20px;
+			line-height: 1.3;
+			@media (min-width: $md2+px) {
+				font-size: 29px;
+				line-height: 36px;
+				letter-spacing: 0.72px;
+				margin-bottom: 44px;
+			}
+		}
+		span {
+			color: #111111;
+			font-size: 22px;
+			@media (min-width: $md4+px) {
+				font-size: 29px;
+			}
+		}
+	}
+	&__img {
+		@media (max-width: $md4+px) {
+			width: 70%;
+		}
+		img {
+			max-width: 100%;
+			border-radius: 50%;
+		}
+	}
+}

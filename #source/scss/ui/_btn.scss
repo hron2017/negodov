@@ -1,0 +1,72 @@
+//<BUTTONS>====================================================================================================
+.btn {
+  display: inline-block;
+  text-align: center;
+  color: #ffffff;
+  font-family: Ubuntu;
+  @include adaptiv-text(1, 1, 22, 100);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.27px;
+  background-image: linear-gradient(-225deg, #4c7ef8 0%, #94d4f4 100%);
+  padding: 10px 20px;
+
+  @media (min-width: 1200px) {
+    font-size: 24px;
+  }
+
+  &:hover {
+    background-image: linear-gradient(-225deg, #94d4f4 0%, #4c7ef8 100%);
+  }
+  &.fw {
+    width: 100%;
+  }
+}
+.intro-author__btn {
+  box-shadow: 0 10px 70px #4c7ef8;
+  @media (min-width: $md4+px) {
+    align-self: flex-start;
+  }
+  @media (min-width: $md2+px) {
+    padding: 26px 64px;
+  }
+  @media (min-width: 1200px) {
+    padding: 36px 84px;
+  }
+}
+.intro__btn {
+  @media (min-width: $md2+px) {
+    padding: 16px 20px;
+    font-size: 16px;
+  }
+  @media (min-width: 1400px) {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.27px;
+    padding: 24px 66px;
+  }
+}
+
+/*.btn {
+  
+  
+  
+  
+  font-size: 20px;
+
+ 
+  padding: 16px 40px;
+  
+
+  
+}
+
+
+.section-03 {
+  .btn {
+    font-size: 18px;
+    padding: 34px;
+    box-shadow: 0 10px 51px #4c7ef8;
+  }
+}*/
+//</BUTTONS>====================================================================================================

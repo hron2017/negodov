@@ -1,0 +1,60 @@
+//<FORM>====================================================================================================
+.form {
+  &__btn {
+    @include button-reset;
+  }
+}
+.form-row {
+  @include flexbox();
+}
+.form__column {
+  padding: 0px 15px;
+}
+.form-input {
+}
+.form-button {
+}
+//</FORM>====================================================================================================
+
+//<INPUT>====================================================================================================
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.input {
+  border-radius: 0 !important;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 24px 0;
+  color: #606060;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 2px solid #000000;
+  border-image: linear-gradient(-225deg, #4c7ef8 0%, #94d4f4 100%) 1;
+  margin-bottom: 17px;
+
+  @media (min-width: $md3+px) {
+    padding: 38px 0;
+    margin-bottom: 27px;
+    font-size: 20px;
+  }
+  &.focus {
+    border-image: linear-gradient(-225deg, #94d4f4 0%, #4c7ef8 100%) 1;
+  }
+  &.err {
+    border: 2px solid red;
+  }
+}
+textarea.input {
+  resize: none;
+  padding: 0px 0px;
+}
+//</INPUT>====================================================================================================

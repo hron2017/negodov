@@ -1,0 +1,42 @@
+.section-08 {
+	.section__list-num {
+		list-style-position: inside;
+		list-style-type: decimal;
+		li {
+			color: #111111;
+			font-size: 16px;
+			line-height: 19px;
+			letter-spacing: 0.72px;
+			box-shadow: 0 9px 10px 0px rgba(148, 212, 244, 0.2);
+			padding: 28px 0px 10px 30px;
+			position: relative;
+
+			&:first-child {
+				padding-top: 0;
+
+				&:before {
+					top: 10px;
+				}
+			}
+			@media (min-width: $md2+px) {
+				font-size: 29px;
+				line-height: 36px;
+				padding: 30px 0px 30px 80px;
+			}
+			&:before {
+				color: #94d4f4;
+				font-size: 35px;
+				font-weight: 700;
+				position: absolute;
+				top: 35px;
+				left: 0px;
+
+				@media (min-width: $md2+px) {
+					font-size: 47px;
+					top: 38px;
+					left: 32px;
+				}
+			}
+		}
+	}
+}

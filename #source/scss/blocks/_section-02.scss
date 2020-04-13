@@ -1,0 +1,17 @@
+.section {
+	&-02 {
+		h3 {
+			font-weight: 700;
+			letter-spacing: 0.57px;
+			text-transform: uppercase;
+			margin-bottom: 16px;
+			font-size: 16px;
+			line-height: 20px;
+			@media (min-width: $md3+px) {
+				font-size: 21px;
+				line-height: 30px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
