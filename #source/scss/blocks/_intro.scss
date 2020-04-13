@@ -54,11 +54,12 @@
 	&-col__lable {
 		width: 100%;
 		position: absolute;
-		top: 0;
+		top: -5px;
+		line-height: 1;
 		left: 0;
 		font-size: 35px;
 		color: #201e42;
-		text-align: center;
+		text-align: left;
 		font-weight: bold;
 		text-transform: uppercase;
 		opacity: 0.09;
@@ -68,6 +69,7 @@
 			left: auto;
 			width: inherit;
 			right: 0;
+			top: 0;
 
 			writing-mode: tb-rl;
 			transform: rotate(180deg);
