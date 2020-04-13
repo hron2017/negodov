@@ -79,9 +79,11 @@
 		}
 	}
 	.btn {
-		box-shadow: 0 10px 70px #4c7ef8;
+		box-shadow: 0 2px 20px #4c7ef8;
+		font-size: 16px;
 		@media (min-width: $md3+px) {
 			padding: 18px 0;
+			box-shadow: 0 10px 70px #4c7ef8;
 		}
 		@media (min-width: 1400px) {
 			padding: 28px 0;

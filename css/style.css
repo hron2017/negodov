@@ -319,8 +319,8 @@ textarea.input {
     width: 100%; }
 
 .intro-author__btn {
-  -webkit-box-shadow: 0 10px 70px #4c7ef8;
-  box-shadow: 0 10px 70px #4c7ef8; }
+  -webkit-box-shadow: 0 2px 18px #4c7ef8;
+  box-shadow: 0 2px 18px #4c7ef8; }
   @media (min-width: 576.98px) {
     .intro-author__btn {
       -ms-flex-item-align: start;
@@ -328,7 +328,9 @@ textarea.input {
   @media (min-width: 992.98px) {
     .intro-author__btn {
       padding: 26px 64px;
-      margin-bottom: 95px; } }
+      margin-bottom: 95px;
+      -webkit-box-shadow: 0 10px 70px #4c7ef8;
+      box-shadow: 0 10px 70px #4c7ef8; } }
   @media (min-width: 1200px) {
     .intro-author__btn {
       padding: 24px 84px; } }
@@ -345,28 +347,6 @@ textarea.input {
       letter-spacing: 0.27px;
       padding: 24px 66px; } }
 
-/*.btn {
-  
-  
-  
-  
-  font-size: 20px;
-
- 
-  padding: 16px 40px;
-  
-
-  
-}
-
-
-.section-03 {
-  .btn {
-    font-size: 18px;
-    padding: 34px;
-    box-shadow: 0 10px 51px #4c7ef8;
-  }
-}*/
 .up {
   position: fixed;
   display: none;
@@ -1718,7 +1698,8 @@ textarea.input {
   padding: 14px;
   -webkit-box-shadow: 0 9px 10px 1px rgba(148, 212, 244, 0.2);
   box-shadow: 0 9px 10px 1px rgba(148, 212, 244, 0.2);
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
   @media (min-width: 767.98px) {
     .questions-spollers__title {
       padding: 34px; } }
@@ -1772,8 +1753,12 @@ textarea.input {
   background-size: cover;
   background-position: center; }
   .section-13 .btn {
-    -webkit-box-shadow: 0 10px 70px #4c7ef8;
-    box-shadow: 0 10px 70px #4c7ef8; }
+    -webkit-box-shadow: 0 2px 20px #4c7ef8;
+    box-shadow: 0 2px 20px #4c7ef8; }
+    @media (min-width: 992.98px) {
+      .section-13 .btn {
+        -webkit-box-shadow: 0 10px 70px #4c7ef8;
+        box-shadow: 0 10px 70px #4c7ef8; } }
 
 .guarantee {
   color: #fff; }
@@ -1850,11 +1835,14 @@ textarea.input {
     .section-14 input {
       padding: 28px 0; } }
   .section-14 .btn {
-    -webkit-box-shadow: 0 10px 70px #4c7ef8;
-    box-shadow: 0 10px 70px #4c7ef8; }
+    -webkit-box-shadow: 0 2px 20px #4c7ef8;
+    box-shadow: 0 2px 20px #4c7ef8;
+    font-size: 16px; }
     @media (min-width: 767.98px) {
       .section-14 .btn {
-        padding: 18px 0; } }
+        padding: 18px 0;
+        -webkit-box-shadow: 0 10px 70px #4c7ef8;
+        box-shadow: 0 10px 70px #4c7ef8; } }
     @media (min-width: 1400px) {
       .section-14 .btn {
         padding: 28px 0; } }

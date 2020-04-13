@@ -22,13 +22,14 @@
   }
 }
 .intro-author__btn {
-  box-shadow: 0 10px 70px #4c7ef8;
+  box-shadow: 0 2px 18px #4c7ef8;
   @media (min-width: $md4+px) {
     align-self: flex-start;
   }
   @media (min-width: $md2+px) {
     padding: 26px 64px;
     margin-bottom: 95px;
+    box-shadow: 0 10px 70px #4c7ef8;
   }
   @media (min-width: 1200px) {
     padding: 24px 84px;
@@ -48,27 +49,4 @@
     padding: 24px 66px;
   }
 }
-
-/*.btn {
-  
-  
-  
-  
-  font-size: 20px;
-
- 
-  padding: 16px 40px;
-  
-
-  
-}
-
-
-.section-03 {
-  .btn {
-    font-size: 18px;
-    padding: 34px;
-    box-shadow: 0 10px 51px #4c7ef8;
-  }
-}*/
 //</BUTTONS>====================================================================================================

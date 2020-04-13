@@ -5,7 +5,11 @@
 	background-position: center;
 
 	.btn {
-		box-shadow: 0 10px 70px #4c7ef8;
+		box-shadow: 0 2px 20px #4c7ef8;
+
+		@media (min-width:$md2+px){
+			box-shadow: 0 10px 70px #4c7ef8;
+		}
 	}
 }
 .guarantee {
