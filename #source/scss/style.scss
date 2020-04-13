@@ -16,7 +16,7 @@ $fontfamily: "Ubuntu";
 
 //<ПЕРЕМЕННЫЕ>===========================================================================================================
 $minwidth: 320px;
-$mw: 1216;
+$mw: 960;
 $md1: $mw + 12;
 $md2: 992.98;
 $md3: 767.98;
@@ -30,6 +30,7 @@ body {
   color: #606060;
   font-family: $fontfamily;
   font-size: 16px;
+  line-height: 1.4;
   font-weight: normal;
   &.lock {
     overflow: hidden;
@@ -68,7 +69,7 @@ body {
   }
 }
 .container-sm {
-  max-width: 1025px;
+  // max-width: 1025px;
 }
 .scroll {
   position: fixed !important;

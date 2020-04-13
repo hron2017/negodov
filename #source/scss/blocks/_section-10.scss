@@ -62,7 +62,7 @@
 		@media (min-width: $md2+px) {
 			width: 59px;
 			height: 59px;
-			margin-bottom: 45px;
+			margin-bottom: 5px;
 		}
 	}
 	&-item__text {
@@ -72,8 +72,8 @@
 		letter-spacing: 0.65px;
 
 		@media (min-width: $md2+px) {
-			font-size: 26px;
-			line-height: 37px;
+			font-size: 18px;
+			line-height: 27px;
 		}
 	}
 }
