@@ -1355,33 +1355,7 @@ textarea.input {
 	@media (max-width: $md3+px) {
 		flex-direction: column;
 	}
-	.section__list-num {
-		list-style-position: inside;
-		column-count: 2;
-		list-style-type: decimal;
-		margin-bottom: 24px;
 
-		@media (min-width: $md2+px) {
-			margin-bottom: 54px;
-		}
-		li {
-			position: relative;
-			padding-left: 15px;
-			line-height: 1.5;
-
-			@media (min-width: $md2+px) {
-				padding-left: 25px;
-			}
-			&:before {
-				color: #386cf8;
-				position: absolute;
-				left: 0;
-				top: 0;
-				@media (min-width: $md2+px) {
-				}
-			}
-		}
-	}
 }
 .course__img {
 	margin-top: -50px;
@@ -1398,38 +1372,105 @@ textarea.input {
 		width: 100%;
 	}
 }
-.section-course {
-	max-width: 740px;
 
-	&__curs {
-		font-family: "Futura PT Book";
-		font-size: 16px;
-		font-weight: 300;
-		letter-spacing: 0.6px;
-		line-height: 22px;
-		text-align: justify;
 
-		@media (min-width: $md3+px) {
-			font-size: 24px;
-			line-height: 30px;
-		}
-	}
-
-	@media (min-width: $md3+px) {
-		margin-left: auto;
-	}
-}
-.section__list-num {
-	counter-reset: myCounter;
-	li {
-		list-style: none;
-		&:before {
-			counter-increment: myCounter;
-			content: counter(myCounter);
-		}
-	}
-}
 */
+.section__list-num {
+  counter-reset: myCounter; }
+  .section__list-num li {
+    list-style: none; }
+    .section__list-num li:before {
+      counter-increment: myCounter;
+      content: counter(myCounter); }
+
+.section__list-num {
+  list-style-position: inside;
+  list-style-type: decimal;
+  margin-bottom: 24px; }
+  @media (min-width: 992.98px) {
+    .section__list-num {
+      margin-bottom: 54px; } }
+  .section__list-num li {
+    position: relative;
+    padding-left: 15px;
+    line-height: 1.5; }
+    @media (min-width: 992.98px) {
+      .section__list-num li {
+        padding-left: 25px; } }
+    .section__list-num li:before {
+      color: #386cf8;
+      position: absolute;
+      left: 0;
+      top: 0; }
+
+.section-course {
+  padding-bottom: 40px; }
+  @media (min-width: 767.98px) {
+    .section-course {
+      padding: 50px 0px; } }
+  .section-course__curs {
+    font-family: "Futura PT Book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 22px;
+    text-align: justify; }
+    @media (min-width: 992.98px) {
+      .section-course__curs {
+        font-size: 24px;
+        line-height: 30px; } }
+  @media (min-width: 767.98px) {
+    .section-course {
+      margin-left: auto; } }
+
+.section-07 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #f2f2f2), color-stop(0%, #e8e8e8));
+  background: -webkit-linear-gradient(#f2f2f2 100%, #e8e8e8 0%);
+  background: -o-linear-gradient(#f2f2f2 100%, #e8e8e8 0%);
+  background: linear-gradient(#f2f2f2 100%, #e8e8e8 0%);
+  padding: 0; }
+
+.course {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+  @media (max-width: 767.98px) {
+    .course {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding: 0 10px; } }
+
+@media (min-width: 767.98px) {
+  .course-col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 40%;
+    flex: 0 1 40%; } }
+
+.course-col img {
+  max-width: 100%; }
+
+@media (max-width: 767.98px) {
+  .course-col__img {
+    margin-bottom: 30px; } }
+
+@media (min-width: 767.98px) {
+  .course-col__img {
+    margin-right: 70px; } }
+
+@media (min-width: 1400px) {
+  .course-col__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 30%;
+    flex: 0 1 30%; } }
+
+.course__img {
+  height: 100%; }
+
 .section-08 .section__list-num {
   list-style-position: inside;
   list-style-type: decimal; }
