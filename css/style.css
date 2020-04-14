@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Ubuntu";
   src: url("../fonts/Ubuntu-Bold.woff2") format("woff2"), url("../fonts/Ubuntu-Bold.woff") format("woff"), url("../fonts/Ubuntu-Bold.ttf") format("truetype");
@@ -1579,7 +1580,7 @@ textarea.input {
           -ms-transform: translateY(80px);
           transform: translateY(80px); } }
   .grid-item__icon {
-    background-image: url(../img/grid-icon.webp);
+    background-image: url(../img/icons/grid-icon-сheck.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
