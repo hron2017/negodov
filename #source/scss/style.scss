@@ -79,8 +79,7 @@ body {
   @include anim(0.7s, 0s);
 
   &.intro-nav {
-    z-index: 11;
-    background: #fff;
+  
 
     @media (min-width: 1400px) {
       padding-left: 100px;
