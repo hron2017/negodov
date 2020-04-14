@@ -503,7 +503,7 @@ textarea.input {
   background-position: center; }
 
 .section-intro .sec-icon-01 {
-  background-image: url(../img/sec-icon/page-icon-01.webp);
+  background-image: url(../img/sec-icon/page-icon-01.png);
   left: 0;
   top: 0;
   width: 15.625vw;
@@ -513,7 +513,7 @@ textarea.input {
       left: -3%; } }
 
 .section-intro .sec-icon-02 {
-  background-image: url(../img/sec-icon/page-icon-02.webp);
+  background-image: url(../img/sec-icon/page-icon-02.png);
   width: 6.14583vw;
   height: 7.1875vw;
   top: 0;
@@ -529,7 +529,7 @@ textarea.input {
 .section-intro .sec-icon-03 {
   width: 5.9375vw;
   height: 5.3125vw;
-  background-image: url(../img/sec-icon/page-icon-03.webp);
+  background-image: url(../img/sec-icon/page-icon-03.png);
   top: 67%;
   right: 17%;
   z-index: -1; }
@@ -538,7 +538,7 @@ textarea.input {
       top: 60%; } }
 
 .section-01 .sec-icon-01 {
-  background-image: url(../img/sec-icon/page-icon-03.webp);
+  background-image: url(../img/sec-icon/page-icon-03.png);
   right: 5%;
   top: -26px;
   z-index: 0;
@@ -549,21 +549,21 @@ textarea.input {
       top: 10%; } }
 
 .section-01 .sec-icon-02 {
-  background-image: url(../img/sec-icon/page-icon-04.webp);
+  background-image: url(../img/sec-icon/page-icon-04.png);
   bottom: 22%;
   right: 10%;
   width: 7.23958vw;
   height: 6.97917vw; }
 
 .section-03 .sec-icon-01 {
-  background-image: url(../img/sec-icon/page-icon-01.webp);
+  background-image: url(../img/sec-icon/page-icon-01.png);
   top: 45%;
   left: -5%;
   width: 15.625vw;
   height: 11.61458vw; }
 
 .section-03 .sec-icon-02 {
-  background-image: url(../img/sec-icon/page-icon-02.webp);
+  background-image: url(../img/sec-icon/page-icon-02.png);
   width: 60px;
   height: 54px;
   top: 0;
@@ -584,7 +584,7 @@ textarea.input {
       left: 5%; } }
 
 .section-03 .sec-icon-03 {
-  background-image: url(../img/sec-icon/page-icon-05.webp);
+  background-image: url(../img/sec-icon/page-icon-05.png);
   width: 12.5vw;
   height: 12.44792vw;
   right: 5%;
@@ -594,7 +594,7 @@ textarea.input {
   transform: rotate(100deg); }
 
 .section-04 .sec-icon-01 {
-  background-image: url(../img/sec-icon/page-icon-05.webp);
+  background-image: url(../img/sec-icon/page-icon-05.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 10.98958vw;
@@ -603,14 +603,14 @@ textarea.input {
   left: 10%; }
 
 .section-05 .sec-icon-01 {
-  background-image: url(../img/sec-icon/page-icon-01.webp);
+  background-image: url(../img/sec-icon/page-icon-01.png);
   width: 10.98958vw;
   height: 12.29167vw;
   bottom: 0;
   left: -2%; }
 
 .section-05 .sec-icon-02 {
-  background-image: url(../img/sec-icon/page-icon-02.webp);
+  background-image: url(../img/sec-icon/page-icon-02.png);
   top: 30%;
   left: 14%;
   width: 6.40625vw;
@@ -620,7 +620,7 @@ textarea.input {
   transform: rotate(80deg); }
 
 .section-08 .sec-icon-01 {
-  background-image: url(../img/sec-icon/page-icon-05.webp);
+  background-image: url(../img/sec-icon/page-icon-05.png);
   top: 15%;
   left: -8%;
   width: 17.34375vw;
@@ -628,7 +628,7 @@ textarea.input {
   z-index: -1; }
 
 .section-08 .sec-icon-02 {
-  background-image: url(../img/sec-icon/page-icon-03.webp);
+  background-image: url(../img/sec-icon/page-icon-03.png);
   top: 18%;
   right: 5%;
   width: 12.23958vw;
@@ -636,7 +636,7 @@ textarea.input {
   z-index: -1; }
 
 .section-08 .sec-icon-03 {
-  background-image: url(../img/sec-icon/page-icon-04.webp);
+  background-image: url(../img/sec-icon/page-icon-04.png);
   top: 68%;
   left: -5%;
   width: 11.14583vw;
@@ -644,7 +644,7 @@ textarea.input {
   z-index: -1; }
 
 .section-10 .sec-icon-01 {
-  background-image: url(../img/sec-icon/page-icon-02.webp);
+  background-image: url(../img/sec-icon/page-icon-02.png);
   top: 30%;
   right: 0;
   width: 10.57292vw;
@@ -655,7 +655,7 @@ textarea.input {
   transform: rotate(70deg); }
 
 .section-10 .sec-icon-02 {
-  background-image: url(../img/sec-icon/page-icon-06.webp);
+  background-image: url(../img/sec-icon/page-icon-06.png);
   top: 29%;
   left: 7%;
   width: 5.98958vw;
@@ -1211,7 +1211,7 @@ textarea.input {
     margin-top: -60px;
     padding-top: 30px;
     position: relative;
-    background-image: url(../img/form-bootom.webp);
+    background-image: url(../img/form-bootom.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom; }
