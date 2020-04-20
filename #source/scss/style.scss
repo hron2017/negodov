@@ -77,10 +77,8 @@ body {
   left: 0;
   width: 100%;
   @include anim(0.7s, 0s);
-
   &.intro-nav {
-  
-
+    margin-top: 0;
     @media (min-width: 1400px) {
       padding-left: 100px;
     }

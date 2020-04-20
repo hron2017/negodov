@@ -234,7 +234,7 @@
 				<form action="#" class="form form-collback">
 					<h4 class="form__title">Это совершенно бесплатно!</h4>
 
-					<input autocomplete="off" type="email" name="form[]" data-value="Электронная почта"
+					<input autocomplete="off" type="email" name="userEmail" data-value="Электронная почта"
 						class="input email req" />
 					<button type="submit" class="form__btn btn fw">Получить урок</button>
 				</form>
@@ -534,7 +534,8 @@
 			<h2 class="section-title">Хотите получить один из уроков Сергея негодова и применить их уже сегодня?</h2>
 			<p>Тогда укажите электронную почту и мы пришлем Вам PDF брошюру</p>
 			<form action="#" class="form form-collback">
-				<input autocomplete="off" type="email" name="form[]" data-value="Электронная почта" class="input email req">
+				<input autocomplete="off" type="email" name="userEmail" data-value="Электронная почта"
+					class="input email req">
 				<button type="submit" class="form__btn btn fw">Получить урок</button>
 			</form>
 		</div>
@@ -597,18 +598,18 @@
 
 					<form action="#" class="popup-form form">
 						<div class="form-input">
-							<input autocomplete="off" type="text" name="form[]" data-value="Электронная почта" class="input" />
-						</div>
-						<div class="form-input">
-							<input autocomplete="off" type="text" name="form[]" data-value="Ваше имя"
+							<input autocomplete="off" type="email" name="userEmail" data-value="Электронная почта"
 								class="input req email" />
 						</div>
 						<div class="form-input">
-							<input autocomplete="off" type="text" name="form[]" data-value="Контактный телефон"
-								class="input req" />
+							<input autocomplete="off" type="text" name="userName" data-value="Ваше имя" class="input req" />
+						</div>
+						<div class="form-input">
+							<input autocomplete="off" type="tel" name="userPhone" data-value="Контактный телефон"
+								class="input phone req" />
 						</div>
 						<div class="form-input mb">
-							<input autocomplete="off" type="text" name="form[]" data-value="Оставьте комментарий"
+							<input autocomplete="off" type="text" name="userComent" data-value="Оставьте комментарий"
 								class="input req" />
 						</div>
 						<div class="form-button">

@@ -1,7 +1,5 @@
 //FORMS
 function forms() {
-	//SELECT
-
 	//FIELDS
 	$('input,textarea').focus(function () {
 		if ($(this).val() == $(this).attr('data-value')) {
@@ -69,7 +67,7 @@ function forms() {
 	$.each($('input.phone'), function (index, val) {
 		$(this).attr('type', 'tel');
 		$(this).focus(function () {
-			$(this).inputmask('+7(999) 999 9999', {
+			$(this).inputmask('+38(999) 999 9999', {
 				clearIncomplete: true, clearMaskOnLostFocus: true,
 				"onincomplete": function () { maskclear($(this)); }
 			});

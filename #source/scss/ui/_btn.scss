@@ -9,7 +9,7 @@
   letter-spacing: 0.27px;
   background-image: linear-gradient(-225deg, #4c7ef8 0%, #94d4f4 100%);
   padding: 14px 20px;
-
+  @include anim(0.3s, 0s);
   @media (min-width: $md2+px) {
     font-size: 24px;
   }
@@ -22,14 +22,14 @@
   }
 }
 .intro-author__btn {
-  box-shadow: 0 2px 18px #4c7ef8;
+  box-shadow: 0 2px 18px rgba(76, 126, 248, 0.35);
   @media (min-width: $md4+px) {
     align-self: flex-start;
   }
   @media (min-width: $md2+px) {
     padding: 26px 64px;
     margin-bottom: 95px;
-    box-shadow: 0 10px 70px #4c7ef8;
+    box-shadow: 0 29px 48px rgba(76, 126, 248, 0.35);
   }
   @media (min-width: 1200px) {
     padding: 24px 84px;

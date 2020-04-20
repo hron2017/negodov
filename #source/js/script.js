@@ -62,3 +62,27 @@ $('.video-play').click(function () {
 	$('.video__poster').fadeOut();
 });
 //====================  <!-- Video -->  ========================//
+
+
+$('form').submit(function (e) {
+	var $form = $(this);
+	$.ajax({
+		type: "POST",
+		url: 'mail.php',
+		data: $form.serialize(),
+		success: function (data) {
+			console.log(data);
+			if (data == 'Cообщение Передано!') {
+				$form.trigger("reset");
+			}
+		}
+	}).done(function () {
+		console.log('success');
+	}).fail(function () {
+		console.log('fail');
+	});
+	//отмена действия по умолчанию для кнопки submit
+	e.preventDefault();
+});
+
+
