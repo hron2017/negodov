@@ -1,8 +1,7 @@
 <?php
 	$method = $_SERVER['REQUEST_METHOD'];
      
-  //$mail_to = 'teplusha@ukr.net';  
-  $mail_to = 'andreypbiz@gmail.com';         
+      
 
  
  if(!$_POST['userName']){
